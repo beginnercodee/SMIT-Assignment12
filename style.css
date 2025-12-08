@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    width: 100%;
+    background-color: rgb(30, 29, 29);
+    height: 80px;
+}
+
+.nav{
+    width: 85%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+.navs h4{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.body{
+    width: 100%;
+}
+
+.first-section{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    height: 250px;
+    display: flex;
+}
+
+.material{
+    width: 35%;
+}
+
+.material h2{
+    margin-bottom: 10px;
+}
+
+.material p{
+    margin-bottom: 40px;
+}
+
+.material button{
+    background-color: rgb(227, 150, 7);
+    color: white;
+    border: none;
+    width: 25%;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.image{
+    margin-left: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+img{
+    height: 250px;
+    width: 670px;
+}
+
+.second-section{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    height: 250px;
+    display: flex;
+}
+
+.placeholder{
+    background-color: black;
+    width: 50%;
+    height: 300px;
+}
