@@ -5,7 +5,7 @@
 
 .nav-bar{
     width: 100%;
-    background-color: rgb(30, 29, 29);
+    background-color: rgb(39, 36, 36);
     height: 80px;
 }
 
@@ -37,6 +37,7 @@
     margin-top: 50px;
     height: 250px;
     display: flex;
+    border: 1px solid black;
 }
 
 .material{
@@ -69,19 +70,68 @@
 
 img{
     height: 250px;
-    width: 670px;
+    width: 640px;
 }
 
 .second-section{
     width: 85%;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 50px;
     height: 250px;
+    border: 1px solid black;
+}
+
+.second-section h2{
+    margin-bottom: 15px;
+}
+
+.cards{
+    border: 1px solid black;
     display: flex;
+    justify-content: space-between;
+}
+
+.card-material{
+    /* border: 1px solid black; */
+    width: 250px;
+}
+
+.card-material h3{
+    margin-bottom: 10px;
+}
+
+.card-material p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card-material button{
+    background-color: rgb(227, 150, 7);
+    color: white;
+    border: none;
+    width: 40%;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .placeholder{
-    background-color: black;
-    width: 50%;
+    background-color: rgb(39, 36, 36);
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.posts-about-connections{
+    width: 100%;
+    background-color: rgb(39, 36, 36);
+    height: 400px;
+}
+
+.materials{
+    width: 85%;
+    margin: auto;
     height: 300px;
+    border: 1px solid black;
 }
